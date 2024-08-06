@@ -1,3 +1,30 @@
 body {
 	background-color: #071121;
 }
+.hat {
+
+}
+
+.logo{
+	position:absolute;
+	top:35px;
+	left:100px;
+	border: solid #9E00FF;
+	font-family:Arial;
+	border-radius:50px;
+	font-size:200%;
+	color:white;
+	padding:15px 15px;
+}
+
+.color{
+	color:#9E00FF;
+	font-family:Gill Sans;
+	font-size:110%;
+}
+
+nav{
+	position:absolute;
+	top:5%;
+	right:5%;
+}
