@@ -2,7 +2,7 @@ body {
 	background-color: #071121;
 }
 .hat {
-
+	height: 100px;
 }
 
 .logo{
@@ -27,4 +27,44 @@ nav{
 	position:absolute;
 	top:5%;
 	right:5%;
+}
+
+.button1{
+	background-color: #8c5dd8;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #ffffff;
+	border-radius:50px;
+	padding:15px 30px;
+	margin:22px;
+	text-decoration:none;
+}
+
+.button2{
+	background-color: #aa2727;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #ffffff;
+	border-radius:50px;
+	padding:15px 30px;
+	margin:22px;
+	text-decoration:none;
+}
+
+.button3{
+	background-color: #d4d4d4;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #ffffff;
+	border-radius:50px;
+	padding:15px 30px;
+	margin:22px;
+	text-decoration:none;
+}
+
+.button4{
+	background-color: #ecc824;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #ffffff;
+	border-radius:50px;
+	padding:15px 30px;
+	margin:22px;
+	text-decoration:none;
 }
