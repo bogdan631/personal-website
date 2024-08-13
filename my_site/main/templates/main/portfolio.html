@@ -1,1 +1,9 @@
 {%extends 'main/base.html'%}
+
+{%load static%}
+
+{%block content%}
+<h1 class="portfolio">Примеры работ</h1>
+<div class="site1"><img src="{%static 'main/image/site1.jpeg'%} "href="https://github.com/bogdan631/personal-website"style="--clr:#63dbff"></div>
+<a href="https://github.com/bogdan631/personal-website"><div class="site1"><img src="{%static 'main/image/site1.jpeg'%} "style="--clr:#63dbff"></div></a>
+{%endblock%}
