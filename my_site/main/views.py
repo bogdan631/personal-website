@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from .forms import TableForm
 # Create your views here.
 
 from django.shortcuts import render
@@ -12,4 +12,10 @@ def portfolio(request):
 def contact(request):
    return render(request, "main/contact.html")
 def application(request):
-   return render(request, "main/application.html")
+   if request.method=="POST":
+      form=TableForm(request.POST)
+      form.save()
+   form = TableForm()
+   context={'form':form}
+
+   return render(request, "main/application.html",context)

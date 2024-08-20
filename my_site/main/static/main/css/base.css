@@ -182,3 +182,52 @@ nav{
 	nav a img{
 	height:30px;
 	}
+
+	.blank{
+		position:absolute;
+		font-size:600%;
+		color:white;
+		top:50px;
+		left:100px;
+		font-family:Trebuchet MS;
+		}
+		
+	p2{
+		position:absolute;
+		font-size:350%;
+		color:white;
+		top:250px;
+		left:110px;
+		font-family:Trebuchet MS;
+		}
+	.form_control{
+		position:absolute;
+		top:450px;
+		left:100px;
+		border-radius:25px;
+		}
+		
+		.blankimg{
+		border-radius:25px;
+		position:absolute;
+		left:1000px;
+		top:150px;
+		height:560px;
+		background: var(--clr);
+		box-shadow: 0 0 90px var(--clr);
+		animation: light 3s linear infinite;
+		}
+		
+		.but1{
+		position:absolute;
+		left:400px;
+		top:550px;
+		background-color:#9E00FF;
+		border-radius:50px;
+		font-family:Trebuchet MS;
+		color:white;
+		font-size:90%;
+		text-decoration:none;
+		padding:5px 10px;
+		margin:22px;
+		}
