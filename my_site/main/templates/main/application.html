@@ -1,0 +1,19 @@
+{%extends 'main/base.html'%}
+{%load static%}
+
+{%block content%}
+
+<img src="{%static 'main/image/blank.jpg'%}" style="--clr:#4d13ab" class="blankimg">
+
+<h1 class="blank">Оставить заявку</h1>
+<p2>
+    Остались вопросы?<br>
+    Заполни форму ниже<br>
+
+</p2>
+<form method="post">
+    {% csrf_token %}
+    {{form.text}}
+    <button type="submit" class="but1">Добавить</button>
+</form>
+{%endblock%}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my_site</title>
+    {%load static%}
+    <link rel ="stylesheet" type ="text/css" href="{%static 'main/css/base.css'%}">
+</head>
+<body>
+
+    <div class="hat">
+        <div class="logo">БОГ<span class="color">ДАН</span></div>
+        <nav>
+                <a style="--clr:#9E00FF" class="button1" href=""> home </a>
+                <a style="--clr:#9E00FF" class="button2" href="/portfolio"> portfolio </a>
+                <a style="--clr:#9E00FF" class="button3" href="/contact"> contact </a>
+                <a style="--clr:#9E00FF" class="button4" href="/application"> application </a>
+
+        </nav>
+    </div>
+{%block content%}{%endblock%}
+</body>
+</html>
